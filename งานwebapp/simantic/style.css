@@ -1,0 +1,26 @@
+nav{
+
+}
+ul.Home{
+float: right;
+display: flex;
+}
+ul.menu1{
+    float: right;
+    display: flex;
+}
+ul.menu2{
+    float: right;
+    display: flex;
+}
+.Oom{
+    color: blueviolet;
+}
+img{
+    border-radius: 120%;
+    float: right;
+}
+.f02{
+    float: left;
+    margin: 6rem 1rem 0rem 0rem;
+}
