@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1 class="register">สมัครสมาชิกผู้ใช้งาน</h1>
+<br>
+<br>
+<br>
+    <h2 class="infomation">1.ข้อมูลส่วนตัว</h2>
+<form class="form2">
+<table>
+<tr>
+    ชื่อผู้ใช้ : <br><input type="text" id="user" name="user"  size="25" > <br><br>
+    ชื่อ-นามสกุล : <br><input type="text" id="name" name="lastname"  size="25" > <br><br>
+    เบอร์โทร : <br><input type="text" id="phone" name="phone"  size="25" > 
+    <br><br>
+    อีเมล : <br><input type="text" id="email" name="email"  size="25" > 
+    <br><br>
+    รหัสผ่าน : <br><input type="password" id="pass" name="password"  size="25" > <br><br>
+</tr>
+</table>
+</form>
+<h2 class="location">2.ที่อยู่ปัจจุบัน</h2>
+<form class="form3">
+    <table>
+    <tr>
+        บ้านเลขที่ : <br><input type="text" id="home" name="home"  size="25" > <br><br>
+
+        จังหวัด : <br><input list="jangwat">
+        <datalist id="jangwat">
+            <option value="ปทุมธานี"></option>
+            <option value="กรุงเทพ"></option>
+            <option value="ร้อยเอ็ด"></option>
+        </datalist><br><br>
+        อำเภอ : <br><input list="amper">
+        <datalist id="amper">
+            <option value="คลองหลวง"></option>
+            <option value="ลำลูกกา"></option>
+            <option value="ธัญบุรี"></option>
+        </datalist><br><br>
+        ตำบล : <br><input list="tambon">
+        <datalist id="tambon">
+            <option value="สวนพริกไทย"></option>
+            <option value="ลำพูล"></option>
+            <option value="ลาดสวาย"></option>
+        </datalist><br><br>
+        รหัสไปรษณีย์ : <br><input type="text" id="post" name="post"  size="25" > <br><br>
+        รายละเอียดที่อยู่ : <br><input type="text" id="address" name="address"  size="25" > <br><br>
+        อัพโหลดรูปโปรไฟล์ : <br><input type="file" id="profile" name="profile"  size="25" > <br><br>
+        <input type="submit" id="send" name="send" value="สมัครสมาชิก">
+        <input type="reset" id="cancel" name="cancel" value="ยกเลิก">
+    </tr>
+    </table>
+    </form>
+</body>
+</html>

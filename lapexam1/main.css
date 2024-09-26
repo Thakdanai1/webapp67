@@ -1,0 +1,63 @@
+.logo {
+    text-align: center;
+    float: center;
+}
+.img2{
+    float: left;
+    margin-left: 30rem;
+}
+.img3{
+    float: right;
+    margin-right: 30rem;
+}
+.maid-button{
+    float: left;
+    margin-left: 34rem;
+}
+.user-button{
+    float: right;
+    margin-right: 34rem;
+}
+.headlogin{
+    text-align: center;
+    margin-top:10rem ;
+}
+.img4 {
+    text-align: center;
+    float: center;
+}
+.form1{
+    float: center;
+    text-align: center;
+}
+.location{
+    float: center;
+    text-align: center;
+}
+.infomation{
+    float: center;
+    text-align: center;
+}
+body {
+    background-image: url("5.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+.form2{
+    float: center;
+    text-align: center;
+}
+.form3{
+    float: center;
+    text-align: center;
+}
+.register{
+    float: center;
+    text-align: center;
+}
+.user-button{
+        background-color: orange
+      }
+.maid-button{
+        background-color: orange
+      }
